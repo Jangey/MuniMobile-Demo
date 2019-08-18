@@ -1,0 +1,6 @@
+framework module Pods_MuniMobile {
+  umbrella header "Pods-MuniMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

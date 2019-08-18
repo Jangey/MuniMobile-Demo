@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2370EFC2B6C6C53B54A0EAF1B3D19FB6 /* Pods-MuniMobileTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6942F93B673F08B626AEEA655294BE39 /* Pods-MuniMobileTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E37E3F4AD5B372123C232FAB0AF797E /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04499C25D8281B3732F5506EA596B264 /* FLAnimatedImageView.m */; };
+		4233D3A428A24B3A825FB4954CAD0633 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9547205A70C36EE7CBAF3A01231C5922 /* CoreGraphics.framework */; };
+		4AB004656F00C44B4B9F8D56C4754D0A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAD0FE9175ACF308EC3F581CBCE4DB3 /* ImageIO.framework */; };
+		516401D18F69FB277500A8690981B114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */; };
+		56FD08990FA358410069F3FAAE721174 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F678EAB21C95B5D6A89D01EEC155B3 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		583EF92505C69DED90C7FE8B7E82B7B5 /* Pods-MuniMobileUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B464758B4EA37C3FAB5CEA80DBEE1 /* Pods-MuniMobileUITests-dummy.m */; };
+		5DD277B7B4C4B71A829545763E46B05A /* Pods-MuniMobileUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F47BA06F50DA68036495E50DA8C7ACC /* Pods-MuniMobileUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7105E7492F80ECB11B3D2D5C7098CF60 /* Pods-MuniMobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2387AB1AF50790F59F5E7394CD017658 /* Pods-MuniMobile-dummy.m */; };
+		7A48EACAA5CB1F8B6CBDE57D36FE3F1C /* Pods-MuniMobileTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9F4817C2EAFA4E0ECF955CF24093D /* Pods-MuniMobileTests-dummy.m */; };
+		82562FFD8FF9F8481E5AE6CBA4F04153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */; };
+		8C7D729C08C1E760B384B8D8AFFA9EF8 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA2A58049C6EFDF6E756A2AFCD9E60D /* FLAnimatedImage.m */; };
+		8F66B8BB0E6448219718D9FE6CB68470 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2959A3ADA751FA7C1FF0DAACBE70952C /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEC130C808827F31E4313CA075D6091 /* Pods-MuniMobile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6595F93D5CAC633C994C788A2C967DA /* Pods-MuniMobile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3729C06CE3ABD72BF652E5847B2F576 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40640917C32395FE3CC15AD5A620ABB /* MobileCoreServices.framework */; };
+		BF94353BBCE2A4A703F63D08DC30C452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */; };
+		C21232881787102B216E2B8CBF006C8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBC4B7FCE510DA29EF1CE33E2C7F75D /* QuartzCore.framework */; };
+		D7A79E0DAC9677BA1663ED5039F087DE /* FLAnimatedImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 993E84A57A01EFC5D299D4E5C261F81A /* FLAnimatedImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E0F0B55021FD2EA75B591CF86EB797 /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF03593231505C121636AD9D068E2EE7 /* FLAnimatedImage-dummy.m */; };
+		F11E2A5E100D7711FD30E452397A50C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68D790E167ABB8B7C43776F49A6018E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089FE991B3B49992399023F280479251;
+			remoteInfo = "Pods-MuniMobile";
+		};
+		93292A0CED983E81A8D61381BFF68362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089FE991B3B49992399023F280479251;
+			remoteInfo = "Pods-MuniMobile";
+		};
+		D73554549CBDB5B6ADD661E9F986CFE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8E8992707D01510894596DB9BCCA00;
+			remoteInfo = FLAnimatedImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04499C25D8281B3732F5506EA596B264 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		062E77DD1AC35D5BA9A808E21255F24D /* Pods-MuniMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuniMobile.release.xcconfig"; sourceTree = "<group>"; };
+		06FE6F0F15EDD94306C4E016ECFBFFC5 /* FLAnimatedImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.xcconfig; sourceTree = "<group>"; };
+		0ABFD8ED0FA4D9820B20ED1AB6E2A77B /* Pods_MuniMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MuniMobileUITests.framework; path = "Pods-MuniMobileUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAD0FE9175ACF308EC3F581CBCE4DB3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		1EFE3FBA7B8DFAD2359AE8E4CA221C9B /* Pods-MuniMobileUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuniMobileUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2387AB1AF50790F59F5E7394CD017658 /* Pods-MuniMobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MuniMobile-dummy.m"; sourceTree = "<group>"; };
+		24F6E6A27D4885F0B0CC07A3686950DE /* Pods-MuniMobile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MuniMobile-frameworks.sh"; sourceTree = "<group>"; };
+		2959A3ADA751FA7C1FF0DAACBE70952C /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		2F76A87381FD02B96AAE69910D25DB54 /* Pods_MuniMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MuniMobileTests.framework; path = "Pods-MuniMobileTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322971EFDF266CE3D14AA76AE1C48818 /* Pods-MuniMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuniMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		33B5EA28DCA945EBAD8C1CB38BD7F1D0 /* Pods-MuniMobileUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MuniMobileUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F12AD06FC57ADD44E7D8E61FB35CDC0 /* Pods-MuniMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuniMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		48948C0F8D444F39051A543C4DA04C56 /* Pods-MuniMobileTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MuniMobileTests.modulemap"; sourceTree = "<group>"; };
+		4A3AB6410F5797710E4325A776D896DB /* Pods-MuniMobile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MuniMobile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E09451517C34A23656EAABDC90FD9C7 /* Pods-MuniMobileTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MuniMobileTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FBC4B7FCE510DA29EF1CE33E2C7F75D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5B9780CD4F9F1E3CEA2027A9DB1DC742 /* Pods-MuniMobile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MuniMobile.modulemap"; sourceTree = "<group>"; };
+		5CA2A58049C6EFDF6E756A2AFCD9E60D /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		5D3B7949172756C419E40E4C5B7CC202 /* Pods-MuniMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuniMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6919E3B25371C88D83764874B3BC7F52 /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
+		6942F93B673F08B626AEEA655294BE39 /* Pods-MuniMobileTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MuniMobileTests-umbrella.h"; sourceTree = "<group>"; };
+		7B733B989D80BC191F1082CCC460962A /* Pods-MuniMobileUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MuniMobileUITests.modulemap"; sourceTree = "<group>"; };
+		7F47BA06F50DA68036495E50DA8C7ACC /* Pods-MuniMobileUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MuniMobileUITests-umbrella.h"; sourceTree = "<group>"; };
+		9547205A70C36EE7CBAF3A01231C5922 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		990434DA71CA09F81D2DEF513B5B5785 /* Pods-MuniMobileUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuniMobileUITests-Info.plist"; sourceTree = "<group>"; };
+		993E84A57A01EFC5D299D4E5C261F81A /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2508338A3EC3ED985874A62055C28FD /* Pods_MuniMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MuniMobile.framework; path = "Pods-MuniMobile.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F678EAB21C95B5D6A89D01EEC155B3 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		A572B6D0F997E2E8F2D5E3A0B893F696 /* Pods-MuniMobile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuniMobile-Info.plist"; sourceTree = "<group>"; };
+		AB4FEDC090D23035800F812F9FA06EFF /* Pods-MuniMobileTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuniMobileTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B40640917C32395FE3CC15AD5A620ABB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		BDC326267B458771D2BB6809E50A9835 /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
+		C12041BD3122D537BC2584DB10F34C21 /* Pods-MuniMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuniMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCF8F6F2FA0332D8322B9A54D7AE30F0 /* Pods-MuniMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MuniMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD0B464758B4EA37C3FAB5CEA80DBEE1 /* Pods-MuniMobileUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MuniMobileUITests-dummy.m"; sourceTree = "<group>"; };
+		D9B9F4817C2EAFA4E0ECF955CF24093D /* Pods-MuniMobileTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MuniMobileTests-dummy.m"; sourceTree = "<group>"; };
+		E1BD4C9ADF97C46BF86F1144FB4208B6 /* FLAnimatedImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLAnimatedImage-Info.plist"; sourceTree = "<group>"; };
+		E4AE96E41CDFDA4E55B95F3896FC84F0 /* Pods-MuniMobile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuniMobile-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6595F93D5CAC633C994C788A2C967DA /* Pods-MuniMobile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MuniMobile-umbrella.h"; sourceTree = "<group>"; };
+		E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE26E68B058A11512CC1DC5C0407F767 /* Pods-MuniMobileTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MuniMobileTests-Info.plist"; sourceTree = "<group>"; };
+		FF03593231505C121636AD9D068E2EE7 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D8346753220BC1EA13160380D47CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82562FFD8FF9F8481E5AE6CBA4F04153 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A51CDB64000C97433646132FEA5EFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516401D18F69FB277500A8690981B114 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51340976A2FE4D3FE7591F7B9CD6137C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E2A5E100D7711FD30E452397A50C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939ECE9460DB5F12EA34129DA01E6E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4233D3A428A24B3A825FB4954CAD0633 /* CoreGraphics.framework in Frameworks */,
+				BF94353BBCE2A4A703F63D08DC30C452 /* Foundation.framework in Frameworks */,
+				4AB004656F00C44B4B9F8D56C4754D0A /* ImageIO.framework in Frameworks */,
+				B3729C06CE3ABD72BF652E5847B2F576 /* MobileCoreServices.framework in Frameworks */,
+				C21232881787102B216E2B8CBF006C8C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100160A6F2C11F145F75AB5F6E60AC0F /* Pods-MuniMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				48948C0F8D444F39051A543C4DA04C56 /* Pods-MuniMobileTests.modulemap */,
+				4E09451517C34A23656EAABDC90FD9C7 /* Pods-MuniMobileTests-acknowledgements.markdown */,
+				AB4FEDC090D23035800F812F9FA06EFF /* Pods-MuniMobileTests-acknowledgements.plist */,
+				D9B9F4817C2EAFA4E0ECF955CF24093D /* Pods-MuniMobileTests-dummy.m */,
+				FE26E68B058A11512CC1DC5C0407F767 /* Pods-MuniMobileTests-Info.plist */,
+				6942F93B673F08B626AEEA655294BE39 /* Pods-MuniMobileTests-umbrella.h */,
+				C12041BD3122D537BC2584DB10F34C21 /* Pods-MuniMobileTests.debug.xcconfig */,
+				322971EFDF266CE3D14AA76AE1C48818 /* Pods-MuniMobileTests.release.xcconfig */,
+			);
+			name = "Pods-MuniMobileTests";
+			path = "Target Support Files/Pods-MuniMobileTests";
+			sourceTree = "<group>";
+		};
+		3EF0970A58057FF92E72009EB1F7839A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage.framework */,
+				A2508338A3EC3ED985874A62055C28FD /* Pods_MuniMobile.framework */,
+				2F76A87381FD02B96AAE69910D25DB54 /* Pods_MuniMobileTests.framework */,
+				0ABFD8ED0FA4D9820B20ED1AB6E2A77B /* Pods_MuniMobileUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B23E791B8839DB6941C7EB499DAE965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE6993104FA1D3BD31D80E8BF4D1079D /* FLAnimatedImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50559D06F14DE4CD01A1A0C8DA07504B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9547205A70C36EE7CBAF3A01231C5922 /* CoreGraphics.framework */,
+				E8715A2D2D3C36483152DBA67B49E567 /* Foundation.framework */,
+				0FAD0FE9175ACF308EC3F581CBCE4DB3 /* ImageIO.framework */,
+				B40640917C32395FE3CC15AD5A620ABB /* MobileCoreServices.framework */,
+				4FBC4B7FCE510DA29EF1CE33E2C7F75D /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		51F8CD5383F2911E0F36C1B8782AAE15 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D42123332E890865EE83F9E8AF8508C /* Pods-MuniMobile */,
+				100160A6F2C11F145F75AB5F6E60AC0F /* Pods-MuniMobileTests */,
+				65243C75593520C0A3543FA755F11FB4 /* Pods-MuniMobileUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65243C75593520C0A3543FA755F11FB4 /* Pods-MuniMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B733B989D80BC191F1082CCC460962A /* Pods-MuniMobileUITests.modulemap */,
+				33B5EA28DCA945EBAD8C1CB38BD7F1D0 /* Pods-MuniMobileUITests-acknowledgements.markdown */,
+				1EFE3FBA7B8DFAD2359AE8E4CA221C9B /* Pods-MuniMobileUITests-acknowledgements.plist */,
+				CD0B464758B4EA37C3FAB5CEA80DBEE1 /* Pods-MuniMobileUITests-dummy.m */,
+				990434DA71CA09F81D2DEF513B5B5785 /* Pods-MuniMobileUITests-Info.plist */,
+				7F47BA06F50DA68036495E50DA8C7ACC /* Pods-MuniMobileUITests-umbrella.h */,
+				CCF8F6F2FA0332D8322B9A54D7AE30F0 /* Pods-MuniMobileUITests.debug.xcconfig */,
+				5D3B7949172756C419E40E4C5B7CC202 /* Pods-MuniMobileUITests.release.xcconfig */,
+			);
+			name = "Pods-MuniMobileUITests";
+			path = "Target Support Files/Pods-MuniMobileUITests";
+			sourceTree = "<group>";
+		};
+		8D42123332E890865EE83F9E8AF8508C /* Pods-MuniMobile */ = {
+			isa = PBXGroup;
+			children = (
+				5B9780CD4F9F1E3CEA2027A9DB1DC742 /* Pods-MuniMobile.modulemap */,
+				4A3AB6410F5797710E4325A776D896DB /* Pods-MuniMobile-acknowledgements.markdown */,
+				E4AE96E41CDFDA4E55B95F3896FC84F0 /* Pods-MuniMobile-acknowledgements.plist */,
+				2387AB1AF50790F59F5E7394CD017658 /* Pods-MuniMobile-dummy.m */,
+				24F6E6A27D4885F0B0CC07A3686950DE /* Pods-MuniMobile-frameworks.sh */,
+				A572B6D0F997E2E8F2D5E3A0B893F696 /* Pods-MuniMobile-Info.plist */,
+				E6595F93D5CAC633C994C788A2C967DA /* Pods-MuniMobile-umbrella.h */,
+				3F12AD06FC57ADD44E7D8E61FB35CDC0 /* Pods-MuniMobile.debug.xcconfig */,
+				062E77DD1AC35D5BA9A808E21255F24D /* Pods-MuniMobile.release.xcconfig */,
+			);
+			name = "Pods-MuniMobile";
+			path = "Target Support Files/Pods-MuniMobile";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50559D06F14DE4CD01A1A0C8DA07504B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				4B23E791B8839DB6941C7EB499DAE965 /* Pods */,
+				3EF0970A58057FF92E72009EB1F7839A /* Products */,
+				51F8CD5383F2911E0F36C1B8782AAE15 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D48762CC873230EA5778112C44B1C475 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC326267B458771D2BB6809E50A9835 /* FLAnimatedImage.modulemap */,
+				06FE6F0F15EDD94306C4E016ECFBFFC5 /* FLAnimatedImage.xcconfig */,
+				FF03593231505C121636AD9D068E2EE7 /* FLAnimatedImage-dummy.m */,
+				E1BD4C9ADF97C46BF86F1144FB4208B6 /* FLAnimatedImage-Info.plist */,
+				6919E3B25371C88D83764874B3BC7F52 /* FLAnimatedImage-prefix.pch */,
+				993E84A57A01EFC5D299D4E5C261F81A /* FLAnimatedImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLAnimatedImage";
+			sourceTree = "<group>";
+		};
+		DE6993104FA1D3BD31D80E8BF4D1079D /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				A4F678EAB21C95B5D6A89D01EEC155B3 /* FLAnimatedImage.h */,
+				5CA2A58049C6EFDF6E756A2AFCD9E60D /* FLAnimatedImage.m */,
+				2959A3ADA751FA7C1FF0DAACBE70952C /* FLAnimatedImageView.h */,
+				04499C25D8281B3732F5506EA596B264 /* FLAnimatedImageView.m */,
+				D48762CC873230EA5778112C44B1C475 /* Support Files */,
+			);
+			name = FLAnimatedImage;
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6731C01935AAB4E7F563F5DE763362E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2370EFC2B6C6C53B54A0EAF1B3D19FB6 /* Pods-MuniMobileTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FFB7B90946D699A24AD363DAC4141A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEC130C808827F31E4313CA075D6091 /* Pods-MuniMobile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E433047A1376B1BC5731E4813837E6AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD277B7B4C4B71A829545763E46B05A /* Pods-MuniMobileUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEEFDD28881358293E26E0D5454AF39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A79E0DAC9677BA1663ED5039F087DE /* FLAnimatedImage-umbrella.h in Headers */,
+				56FD08990FA358410069F3FAAE721174 /* FLAnimatedImage.h in Headers */,
+				8F66B8BB0E6448219718D9FE6CB68470 /* FLAnimatedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		089FE991B3B49992399023F280479251 /* Pods-MuniMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25FEBD1A10EBCC8D344ACB650099B24 /* Build configuration list for PBXNativeTarget "Pods-MuniMobile" */;
+			buildPhases = (
+				C9FFB7B90946D699A24AD363DAC4141A /* Headers */,
+				5F26C70429D039808679340F9E593E31 /* Sources */,
+				02D8346753220BC1EA13160380D47CEF /* Frameworks */,
+				709ED1FBE069D188E6F8899AA9557867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACBECAE5FA89D898B561837F513C4E66 /* PBXTargetDependency */,
+			);
+			name = "Pods-MuniMobile";
+			productName = "Pods-MuniMobile";
+			productReference = A2508338A3EC3ED985874A62055C28FD /* Pods_MuniMobile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		116494E4FBC930D1970E25A9E1B54F26 /* Pods-MuniMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C3A2A09A7F15628EB46F72E3B667D8 /* Build configuration list for PBXNativeTarget "Pods-MuniMobileTests" */;
+			buildPhases = (
+				6731C01935AAB4E7F563F5DE763362E0 /* Headers */,
+				47BFD77A89A21F51C4879637DE831657 /* Sources */,
+				51340976A2FE4D3FE7591F7B9CD6137C /* Frameworks */,
+				EC01F8175BC7E796AA7692EE8C7427ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E2F00CAD83EF8439A2511D4168FF828 /* PBXTargetDependency */,
+			);
+			name = "Pods-MuniMobileTests";
+			productName = "Pods-MuniMobileTests";
+			productReference = 2F76A87381FD02B96AAE69910D25DB54 /* Pods_MuniMobileTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14088B7296F043F753D5957271096369 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				EAEEFDD28881358293E26E0D5454AF39 /* Headers */,
+				76813F11C18C9173164ED85D64246350 /* Sources */,
+				939ECE9460DB5F12EA34129DA01E6E63 /* Frameworks */,
+				57A0D134A7678444328A0170986797A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = FAA5F2D71B90788C908800A94534AA92 /* FLAnimatedImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FCB7CF8135BEDD445A37D8F21177ABF /* Pods-MuniMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5004DC782AD653926D26890DEE3E48C2 /* Build configuration list for PBXNativeTarget "Pods-MuniMobileUITests" */;
+			buildPhases = (
+				E433047A1376B1BC5731E4813837E6AD /* Headers */,
+				D83589C5E37E6B5EB4ABBA9BC3DDBD33 /* Sources */,
+				3A51CDB64000C97433646132FEA5EFDA /* Frameworks */,
+				2D03787AF80B27C18495C32FD67F0715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919C552E2A720CA39D29577EF7C92632 /* PBXTargetDependency */,
+			);
+			name = "Pods-MuniMobileUITests";
+			productName = "Pods-MuniMobileUITests";
+			productReference = 0ABFD8ED0FA4D9820B20ED1AB6E2A77B /* Pods_MuniMobileUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3EF0970A58057FF92E72009EB1F7839A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */,
+				089FE991B3B49992399023F280479251 /* Pods-MuniMobile */,
+				116494E4FBC930D1970E25A9E1B54F26 /* Pods-MuniMobileTests */,
+				4FCB7CF8135BEDD445A37D8F21177ABF /* Pods-MuniMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D03787AF80B27C18495C32FD67F0715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A0D134A7678444328A0170986797A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709ED1FBE069D188E6F8899AA9557867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC01F8175BC7E796AA7692EE8C7427ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47BFD77A89A21F51C4879637DE831657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A48EACAA5CB1F8B6CBDE57D36FE3F1C /* Pods-MuniMobileTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F26C70429D039808679340F9E593E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7105E7492F80ECB11B3D2D5C7098CF60 /* Pods-MuniMobile-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76813F11C18C9173164ED85D64246350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E0F0B55021FD2EA75B591CF86EB797 /* FLAnimatedImage-dummy.m in Sources */,
+				8C7D729C08C1E760B384B8D8AFFA9EF8 /* FLAnimatedImage.m in Sources */,
+				3E37E3F4AD5B372123C232FAB0AF797E /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83589C5E37E6B5EB4ABBA9BC3DDBD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583EF92505C69DED90C7FE8B7E82B7B5 /* Pods-MuniMobileUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E2F00CAD83EF8439A2511D4168FF828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MuniMobile";
+			target = 089FE991B3B49992399023F280479251 /* Pods-MuniMobile */;
+			targetProxy = 93292A0CED983E81A8D61381BFF68362 /* PBXContainerItemProxy */;
+		};
+		919C552E2A720CA39D29577EF7C92632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MuniMobile";
+			target = 089FE991B3B49992399023F280479251 /* Pods-MuniMobile */;
+			targetProxy = 68D790E167ABB8B7C43776F49A6018E1 /* PBXContainerItemProxy */;
+		};
+		ACBECAE5FA89D898B561837F513C4E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 4A8E8992707D01510894596DB9BCCA00 /* FLAnimatedImage */;
+			targetProxy = D73554549CBDB5B6ADD661E9F986CFE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09B8609FD6DB643E60BF5391EC199275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322971EFDF266CE3D14AA76AE1C48818 /* Pods-MuniMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MuniMobileTests/Pods-MuniMobileTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MuniMobileTests/Pods-MuniMobileTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		191B71A25CCB917EEE76DBCD403340E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3B7949172756C419E40E4C5B7CC202 /* Pods-MuniMobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MuniMobileUITests/Pods-MuniMobileUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MuniMobileUITests/Pods-MuniMobileUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33B2DD4CF61C216561A4F5C786E7543F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F12AD06FC57ADD44E7D8E61FB35CDC0 /* Pods-MuniMobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MuniMobile/Pods-MuniMobile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MuniMobile/Pods-MuniMobile.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4685942A8D14FBB712B92032820AF19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FE6F0F15EDD94306C4E016ECFBFFC5 /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A0B5FD70959CE683C7E6B7166ED2EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12041BD3122D537BC2584DB10F34C21 /* Pods-MuniMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MuniMobileTests/Pods-MuniMobileTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MuniMobileTests/Pods-MuniMobileTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9242C65537DEF5E31B79AC1A644F2CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062E77DD1AC35D5BA9A808E21255F24D /* Pods-MuniMobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MuniMobile/Pods-MuniMobile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MuniMobile/Pods-MuniMobile.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E61A93382356BCD2386D83E904AC0D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FE6F0F15EDD94306C4E016ECFBFFC5 /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap";
+				PRODUCT_MODULE_NAME = FLAnimatedImage;
+				PRODUCT_NAME = FLAnimatedImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAE213E216543748E883633863DB38BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF8F6F2FA0332D8322B9A54D7AE30F0 /* Pods-MuniMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MuniMobileUITests/Pods-MuniMobileUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MuniMobileUITests/Pods-MuniMobileUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C3A2A09A7F15628EB46F72E3B667D8 /* Build configuration list for PBXNativeTarget "Pods-MuniMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0B5FD70959CE683C7E6B7166ED2EBF /* Debug */,
+				09B8609FD6DB643E60BF5391EC199275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14088B7296F043F753D5957271096369 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4685942A8D14FBB712B92032820AF19E /* Debug */,
+				E61A93382356BCD2386D83E904AC0D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5004DC782AD653926D26890DEE3E48C2 /* Build configuration list for PBXNativeTarget "Pods-MuniMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE213E216543748E883633863DB38BD /* Debug */,
+				191B71A25CCB917EEE76DBCD403340E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25FEBD1A10EBCC8D344ACB650099B24 /* Build configuration list for PBXNativeTarget "Pods-MuniMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B2DD4CF61C216561A4F5C786E7543F /* Debug */,
+				9242C65537DEF5E31B79AC1A644F2CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
