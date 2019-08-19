@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var expireTimeLabel: UILabel!
     @IBOutlet weak var activateTimeLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var letterLabel: UILabel!
+    
     
     // tap Screen to show / hide QRcode
     @IBAction func tapGesture(_ sender: Any) {
